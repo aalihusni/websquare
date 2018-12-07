@@ -53,7 +53,8 @@
             right: 25px;
             font-size: 16px;
             font-weight: 800;
-
+            border:none;
+            background: none;
         }
         .cat-image {
             position: absolute;
@@ -75,7 +76,7 @@
         </div>
         <div class="row">
             <div class="col-sm">
-                <input type="text" class="content-box clear"  placeholder="Enter anything" id="input-cat">
+                <input type="text" class="content-box clear"  placeholder="Enter anything" id="input-cat" maxlength="5000">
             </div>
         </div>
         <div class="row">
