@@ -15,8 +15,9 @@ class generalController extends Controller
         $input = $input['input'];
         $array = explode(' ',$input);
         $cat_array = [];
+
         foreach($array as $cat) {
-            if (preg_match('/\w(cat)$\b/', $cat)) {
+            if (preg_match('/\w.(cat)$\b/', $cat)) {
                 $cat_array[] = $cat;
             }
         }

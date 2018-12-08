@@ -58,8 +58,8 @@
         }
         .cat-image {
             position: absolute;
-            right: 50px;
-            left: 800px;
+            left: 650px;
+            right: 0;
             top: 50px;
             width: 125px;
         }
